@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+
+.main {
+    margin-top: 170px;
+    text-align: center;
+}
+
+
+.logo-img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.search-input {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 580px;
+    height: 56px;
+    text-indent: 20px;
+    font-size: 14px;
+    margin: 35px auto 0 auto;
+    border: none;
+    border-radius: 26px;
+    opacity: 89%;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    background: white;
+    width: 140px;
+    margin-top: 36px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 11px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 89%;
+}
