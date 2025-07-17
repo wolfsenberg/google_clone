@@ -1,4 +1,5 @@
 body{
+    font-family:  'Open Sans';
     background-color: black;
 }
 
@@ -26,24 +27,46 @@ body{
     margin: 35px auto 0 auto;
     border: none;
     border-radius: 26px;
-    opacity: 89%;
+    opacity: 80%;
+    cursor: pointer;
+    transition: border 0.3s, box-shadow 0.3s, opacity 0.3s;
+    box-sizing: border-box;
+}
+
+.search-input:hover {
+    border-color: black;
+    opacity: 1;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 
 .btn-wrapper {
     display: flex;
     justify-content: center;
+    font-size: 13px;
 }
 
 
 .btn {
     background: white;
-    width: 140px;
+    width: 130px;
     margin-top: 36px;
     margin-left: 8px;
     margin-right: 8px;
     padding: 11px;
     border: none;
-    border-radius: 8px;
-    font-size: 14px;
-    opacity: 89%;
+    border-radius: 7px;
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    opacity: 80%;
+    display: inline-block;
+    cursor: pointer;
+    transition: border 0.3s, box-shadow 0.3s, opacity 0.3s;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    border-color: black;
+    opacity: 1;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
